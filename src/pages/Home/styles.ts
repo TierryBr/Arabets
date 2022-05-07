@@ -115,18 +115,21 @@ export const InfoDetailsButton = styled.a`
   display: flex;
   padding: 0 20px;
   border-radius: 20px;
-  background-color: #33801B;
-  color: white;
-  border: 1px solid gray;
+  background-color: #FFE03B;
+  color: #383838;
+  border: 1px solid #FFE03B;
   text-decoration: none;
   justify-content: center;
   align-items: center;
   font-size: 16px;
   font-weight: 600;
   margin-top: 60px;
+  transition: 0.3s;
   cursor: pointer;
 
   &:hover {
-    background-color: #286d13;
+    background-color: #383838;
+    color: #FFF;
+    border-color: #fff;
   }
 `;

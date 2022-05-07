@@ -13,10 +13,13 @@ export const Left = styled.div`
   padding: 20px;
 `;
 
-export const Logo = styled.h1``;
+export const Logo = styled.h1`
+  color: #FFF;
+`;
 
 export const Desc = styled.p`
   margin: 20px 0px;
+  color: #FFF;
 `;
 
 export const SocialContainer = styled.div`
@@ -43,6 +46,7 @@ export const Center = styled.div`
 
 export const Title = styled.h3`
   margin-bottom: 30px;
+  color: #FFF;
 `;
 
 export const List = styled.ul`
