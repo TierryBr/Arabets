@@ -1,4 +1,5 @@
 import NavBar from '../../components/NavBar';
+import Footer from '../../components/Footer';
 import { TelegramLogo, UserCirclePlus, YoutubeLogo, InstagramLogo } from "phosphor-react";
 import * as S from './styles';
 
@@ -68,7 +69,7 @@ function Home() {
           </S.InfoDetailsDescription>
         </S.InfoDetails>
       </S.InfoTelegram>
-
+      <Footer />
     </>
   );
 };

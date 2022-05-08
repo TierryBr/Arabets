@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { mobile } from "../../responsive";
+import {Link} from 'react-router-dom';
 
 export const Container = styled.div`
   display: flex;
@@ -19,14 +20,23 @@ export const Logo = styled.h1`
 
 export const Desc = styled.p`
   margin: 20px 0px;
-  color: #FFF;
+  color: gray;
 `;
 
 export const SocialContainer = styled.div`
   display: flex;
 `;
 
-export const SocialIcon = styled.div`
+export const Terms = styled.a`
+  color: #FFF;
+  text-decoration: none;
+
+  &:hover {
+    color: gray;
+  }
+`;
+
+export const SocialIcon = styled.a`
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -60,6 +70,17 @@ export const List = styled.ul`
 export const ListItem = styled.li`
   width: 50%;
   margin-bottom: 10px;
+`;
+
+export const ListItemLink = styled(Link)`
+  width: 50%;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #FFF;
+
+  &:hover {
+    color: gray;
+  }
 `;
 
 export const Right = styled.div`

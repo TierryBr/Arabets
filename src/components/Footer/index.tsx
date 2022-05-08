@@ -1,55 +1,45 @@
 import * as S from './styles';
 
+import { TelegramLogo, UserCirclePlus, YoutubeLogo, InstagramLogo } from "phosphor-react";
+
 function Footer() {
   return (
     <S.Container>
       <S.Left>
         <S.Logo>ARABETS.</S.Logo>
         <S.Desc>
-          ARABETS.COM.BR Todos os direitos reservados
+          2022 Arabets. Todos os direitos reservados.
         </S.Desc>
-        {/* <SocialContainer>
-          <SocialIcon color="3B5999">
-            <Facebook />
-          </SocialIcon>
-          <SocialIcon color="E4405F">
-            <Instagram />
-          </SocialIcon>
-          <SocialIcon color="55ACEE">
-            <Twitter />
-          </SocialIcon>
-          <SocialIcon color="E60023">
-            <Pinterest />
-          </SocialIcon>
-        </SocialContainer> */}
+        <S.Desc style={{fontSize: 10}}>
+          A <S.Terms href="https://policies.google.com/privacy" target='_blank'>Política de Privacidade</S.Terms> e os <S.Terms href="https://policies.google.com/terms" target='_blank'>Termos de Serviço</S.Terms> do Google são aplicados.
+        </S.Desc>
       </S.Left>
       <S.Center>
-        {/* <Title>Useful Links</Title>
-        <List>
-          <ListItem>Home</ListItem>
-          <ListItem>Cart</ListItem>
-          <ListItem>Man Fashion</ListItem>
-          <ListItem>Woman Fashion</ListItem>
-          <ListItem>Accessories</ListItem>
-          <ListItem>My Account</ListItem>
-          <ListItem>Order Tracking</ListItem>
-          <ListItem>Wishlist</ListItem>
-          <ListItem>Wishlist</ListItem>
-          <ListItem>Terms</ListItem>
-        </List> */}
+        <S.Title>Links úteis</S.Title>
+        <S.List>
+          <S.ListItem>
+            <S.ListItemLink to="/">Home</S.ListItemLink>
+          </S.ListItem>
+          <S.ListItem>
+            <S.ListItemLink to="/about">Sobre nós</S.ListItemLink>
+          </S.ListItem>
+          <S.ListItem>
+            <S.ListItemLink to="/">Dúvidas</S.ListItemLink>
+          </S.ListItem>
+        </S.List>
       </S.Center>
       <S.Right>
-        {/* <Title>Contact</Title>
-        <ContactItem>
-          <Room style={{marginRight:"10px"}}/> 622 Dixie Path , South Tobinchester 98336
-        </ContactItem>
-        <ContactItem>
-          <Phone style={{marginRight:"10px"}}/> +1 234 56 78
-        </ContactItem>
-        <ContactItem>
-          <MailOutline style={{marginRight:"10px"}} /> contact@lama.dev
-        </ContactItem>
-        <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" /> */}
+        <S.Title>Redes Sociais</S.Title>
+        <S.ContactItem>
+          <S.SocialContainer>
+            <S.SocialIcon color="30A8DE" href='https://t.me/arabetsfutebol' target='_blank'>
+              <TelegramLogo size="20" weight="fill"/>
+            </S.SocialIcon>
+            <S.SocialIcon color="D54B77" href='https://www.instagram.com/arabets_corner/?utm_medium=copy_link' target='_blank'>
+              <InstagramLogo size="20" weight="fill"/>
+            </S.SocialIcon>
+          </S.SocialContainer>
+        </S.ContactItem>
       </S.Right>
     </S.Container>
   );
