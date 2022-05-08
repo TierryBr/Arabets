@@ -1,8 +1,7 @@
-import React from "react";
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Logo from '../../img/logo.png';
-
 import * as S from './styles';
 
 function Navbar() {
@@ -10,8 +9,8 @@ function Navbar() {
     <S.Container>
       <S.Wrapper>
         <S.Left>
-          <Link to="/">
-            <img src={Logo} width="100" height="90"/>
+          <Link to='/'>
+            <img src={Logo} width='100' height='90' alt='Logo Arabets' />
           </Link>
         </S.Left>
         <S.Center>
@@ -19,10 +18,10 @@ function Navbar() {
         </S.Center>
         <S.Right>
           <S.MenuItem>
-            <S.InfosNavBar to="/about">
+            <S.InfosNavBar to='/about'>
               <S.TextInfosNavBar>Sobre</S.TextInfosNavBar>
             </S.InfosNavBar>
-            <S.InfosNavBar to="/">
+            <S.InfosNavBar to='/'>
               <S.TextInfosNavBar>Dúvidas</S.TextInfosNavBar>
             </S.InfosNavBar>
           </S.MenuItem>
@@ -30,6 +29,6 @@ function Navbar() {
       </S.Wrapper>
     </S.Container>
   );
-};
+}
 
 export default Navbar;

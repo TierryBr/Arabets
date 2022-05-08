@@ -1,7 +1,7 @@
 import NavBar from '../../components/NavBar';
 
 function Content() {
-  return(
+  return (
     <>
       <NavBar />
       <h1>videos</h1>

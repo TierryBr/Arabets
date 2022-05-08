@@ -7,9 +7,9 @@ import Content from '../pages/Content';
 const routes = () => (
   <BrowserRouter>
     <Routes>
-      <Route path='/' element={<Home/>} />
-      <Route path='/about' element={<About/>} />
-      <Route path='/content' element={<Content/>} />
+      <Route path='/' element={<Home />} />
+      <Route path='/about' element={<About />} />
+      <Route path='/content' element={<Content />} />
     </Routes>
   </BrowserRouter>
 );
