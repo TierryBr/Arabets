@@ -1,14 +1,8 @@
-import NavBar from './components/NavBar';
-import Home from './pages/Home';
-import Footer from './components/Footer';
+import Routes from './routes';
 
 function App() {
   return (
-    <>
-      <NavBar />
-      <Home />
-      <Footer />
-    </>
+    <Routes />
   )
 }
 

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 import Logo from '../../img/logo.png';
 
@@ -9,19 +10,19 @@ function Navbar() {
     <S.Container>
       <S.Wrapper>
         <S.Left>
-          <a href="#">
+          <Link to="/">
             <img src={Logo} width="100" height="90"/>
-          </a>
+          </Link>
         </S.Left>
         <S.Center>
           <S.Title>Arabet's Corner</S.Title>
         </S.Center>
         <S.Right>
           <S.MenuItem>
-            <S.InfosNavBar href="#">
+            <S.InfosNavBar to="/about">
               <S.TextInfosNavBar>Sobre</S.TextInfosNavBar>
             </S.InfosNavBar>
-            <S.InfosNavBar href="#">
+            <S.InfosNavBar to="/">
               <S.TextInfosNavBar>Dúvidas</S.TextInfosNavBar>
             </S.InfosNavBar>
           </S.MenuItem>

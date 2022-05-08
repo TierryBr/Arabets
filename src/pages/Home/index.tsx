@@ -1,10 +1,11 @@
+import NavBar from '../../components/NavBar';
 import { TelegramLogo, UserCirclePlus, YoutubeLogo, InstagramLogo } from "phosphor-react";
-
 import * as S from './styles';
 
 function Home() {
   return (
     <>
+      <NavBar />
       <S.Container >
         <S.ContainerTitle>GANHE DINHEIRO TODOS OS DIAS, ATRAVÉS DAS APOSTAS ESPORTIVAS</S.ContainerTitle>
       </S.Container>
@@ -39,7 +40,7 @@ function Home() {
               <S.ItemLI>E MAIS TRÊS BÔNUS;</S.ItemLI>
             </ul>
             
-          <S.InfoDetailsButton href="http://www.google.com" target='_blank'>
+          <S.InfoDetailsButton to="/content">
             ACESSE AGORA
           </S.InfoDetailsButton>
           </S.InfoDetailsDescription>
@@ -61,9 +62,9 @@ function Home() {
               <S.ItemLI>ATUALIZAÇÕES E MUITO MAIS;</S.ItemLI>
             </ul>
             
-          <S.InfoDetailsButton href="https://t.me/arabetsfutebol" target='_blank'>
+          <S.InfoDetailsButtonTelegram href="https://t.me/arabetsfutebol" target='_blank'>
             ENTRE AGORA
-          </S.InfoDetailsButton>
+          </S.InfoDetailsButtonTelegram>
           </S.InfoDetailsDescription>
         </S.InfoDetails>
       </S.InfoTelegram>

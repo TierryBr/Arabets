@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { mobile } from "../../responsive";
+import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
   height: 60px;
@@ -69,7 +70,7 @@ export const MenuItem = styled.div`
   ${mobile({ fontSize: "12px", marginLeft: "10px" })}
 `;
 
-export const InfosNavBar = styled.a`
+export const InfosNavBar = styled(Link)`
   color: #FFF;
   text-decoration: none;
   cursor: pointer;
