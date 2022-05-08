@@ -3,6 +3,7 @@ import {
   UserCirclePlus,
   YoutubeLogo,
   InstagramLogo,
+  MonitorPlay,
 } from 'phosphor-react';
 
 import NavBar from '../../components/NavBar';
@@ -74,6 +75,11 @@ function Home() {
             </ul>
 
             <S.InfoDetailsButton to='/content'>
+              <MonitorPlay
+                size='20'
+                weight='regular'
+                style={{ marginRight: 10 }}
+              />
               ACESSE AGORA
             </S.InfoDetailsButton>
           </S.InfoDetailsDescription>
@@ -101,6 +107,11 @@ function Home() {
               href='https://t.me/arabetsfutebol'
               target='_blank'
             >
+              <TelegramLogo
+                size='20'
+                weight='regular'
+                style={{ marginRight: 10 }}
+              />
               ENTRE AGORA
             </S.InfoDetailsButtonTelegram>
           </S.InfoDetailsDescription>
