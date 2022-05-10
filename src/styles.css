@@ -2,6 +2,9 @@ html {
   scroll-behavior: smooth;
   background-color: #282828;
   color: #FFF;
+  display: flex;
+
+  /* flex-direction: column-reverse; */
 }
 
 body {

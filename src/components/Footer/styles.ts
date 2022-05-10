@@ -1,11 +1,15 @@
 import styled from "styled-components";
 import {Link} from 'react-router-dom';
 
-import { mobile } from "../../responsive";
+const media = {
+  mobile900: '@media(max-width: 900px)'
+}
 
 export const Container = styled.div`
   display: flex;
-  ${mobile({ flexDirection: "column" })}
+  ${media.mobile900} {
+    flex-direction: column;
+  }
 `;
 
 export const Left = styled.div`
@@ -52,7 +56,6 @@ export const SocialIcon = styled.a`
 export const Center = styled.div`
   flex: 1;
   padding: 20px;
-  ${mobile({ display: "none" })}
 `;
 
 export const Title = styled.h3`
@@ -87,8 +90,6 @@ export const ListItemLink = styled(Link)`
 export const Right = styled.div`
   flex: 1;
   padding: 20px;
-  ${mobile({ backgroundColor: "#fff8f8" })}
-
 `;
 
 export const ContactItem = styled.div`

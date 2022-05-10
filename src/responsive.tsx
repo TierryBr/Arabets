@@ -9,6 +9,10 @@ export const mobile = (props: any) => css`
     ${props}
   }
 
+  @media only screen and (max-width: 898px) {
+    ${props}
+  }
+
   @media only screen and (max-width: 563px) {
     ${props}
   }

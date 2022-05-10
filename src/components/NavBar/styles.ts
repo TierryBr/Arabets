@@ -3,13 +3,21 @@ import { Link } from 'react-router-dom';
 
 import { mobile } from "../../responsive";
 
+const media = {
+  mobile898: '@media(max-width: 898px)',
+  mobile575: '@media(max-width: 575px)',
+}
+
 export const Container = styled.div`
   height: 60px;
+  width: 100%;
   background-color: #236F52;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  ${mobile({ height: "50px" })}
+  ${media.mobile575} {
+    height: 56px;
+  }
 `;
 
 export const Wrapper = styled.div`
@@ -18,7 +26,6 @@ export const Wrapper = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: 0 1rem;
-  ${mobile({ padding: "10px 0px" })}
 `;
 
 export const Left = styled.div`
@@ -29,7 +36,6 @@ export const Left = styled.div`
 export const Language = styled.span`
   font-size: 14px;
   cursor: pointer;
-  ${mobile({ display: "none" })}
 `;
 
 export const SearchContainer = styled.div`
@@ -42,7 +48,6 @@ export const SearchContainer = styled.div`
 
 export const Input = styled.input`
   border: none;
-  ${mobile({ width: "50px" })}
 `;
 
 export const Center = styled.div`
@@ -53,14 +58,18 @@ export const Center = styled.div`
 export const Title = styled.h1`
   font-weight: bold;
   color: #FFF;
-  ${mobile({ fontSize: "24px" })}
+  ${media.mobile898} {
+    font-size: 24px;
+  }
+  ${media.mobile575} {
+    font-size: 20px;
+  }
 `;
 export const Right = styled.div`
   flex: 1;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  ${mobile({ marginRight: "20px" })}
 `;
 
 export const MenuItem = styled.div`
@@ -68,7 +77,6 @@ export const MenuItem = styled.div`
   color: #FFF;
   text-decoration: none;
   margin-left: 25px;
-  ${mobile({ fontSize: "12px", marginLeft: "10px" })}
 `;
 
 export const InfosNavBar = styled(Link)`
@@ -76,13 +84,11 @@ export const InfosNavBar = styled(Link)`
   text-decoration: none;
   cursor: pointer;
   margin-left: 25px;
-  ${mobile({ fontSize: "12px", marginLeft: "10px" })}
 `;
 
 export const TextInfosNavBar = styled.a`
   font-size: 15px;
   font-weight: 400;
-  ${mobile({ fontSize: "12px", marginLeft: "10px" })}
 
   &:hover {
     color: #e1dfdf;

@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
-import { mobile } from "../../responsive";
+const media = {
+  mobile898: '@media(max-width: 898px)',
+  mobile575: '@media(max-width: 575px)',
+}
 
 export const Container = styled.div`
   display: flex;
@@ -9,7 +12,10 @@ export const Container = styled.div`
   align-items: center;
   flex-wrap: wrap;
   padding: 30px;
-  ${mobile({ flexDirection: "column" })}
+  ${media.mobile898} {
+    flex-direction: column;
+    padding: 5px;
+  }
 `;
 
 export const ContainerHeader = styled.div`
@@ -17,7 +23,9 @@ export const ContainerHeader = styled.div`
   flex: 1;
   justify-content: center;
   align-items: center;
-  ${mobile({ flexDirection: "column" })}
+  ${media.mobile898} {
+    flex-direction: column;
+  }
 `;
 
 export const ContainerIframe = styled.div`
@@ -27,6 +35,9 @@ export const ContainerIframe = styled.div`
   margin: 20px;
   border: 1px solid #236F52;
   border-radius: 20px;
+  ${media.mobile898} {
+    max-width: 60%;
+  }
 `;
 
 export const ContainerIframeTitle = styled.h1`
@@ -66,6 +77,7 @@ export const ContainerFooter = styled.div`
   align-items: center;
   flex-direction: column;
   margin-bottom: 8rem;
+
 `;
 
 export const ContainerFooterTitle = styled.h1`
@@ -81,4 +93,14 @@ export const ContainerFooterButton = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  ${media.mobile575} {
+    flex-direction: column;
+  }
+`;
+
+export const ContainerFooterButtonTelegram = styled.div`
+  margin-right: 70px;
+  ${media.mobile575} {
+    margin-right: 0;
+  }
 `;

@@ -7,9 +7,9 @@ function Content() {
   return (
     <>
       <NavBar />
-      <S.ContainerHeader>
+      {/* <S.ContainerHeader>
         <h1>Minicurso gratuito</h1>
-      </S.ContainerHeader>
+      </S.ContainerHeader> */}
       <S.Container>
         <S.ContainerIframe>
           <iframe
@@ -92,7 +92,7 @@ function Content() {
           escanteios
         </S.ContainerFooterTitle>
         <S.ContainerFooterButton>
-          <div style={{ marginRight: 70 }}>
+          <S.ContainerFooterButtonTelegram>
             <S.InfoDetailsButtonTelegram
               href='https://t.me/arabetsfutebol'
               target='_blank'
@@ -104,7 +104,7 @@ function Content() {
               />
               ENTRE AGORA
             </S.InfoDetailsButtonTelegram>
-          </div>
+          </S.ContainerFooterButtonTelegram>
 
           <div>
             <S.InfoDetailsButtonTelegram href='https://drive.google.com/u/0/uc?id=1kgSl9iLWyw96Z6przmVK7kLwSHSVPbqw&export=download'>
