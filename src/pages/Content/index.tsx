@@ -107,7 +107,7 @@ function Content() {
           </S.ContainerFooterButtonTelegram>
 
           <div>
-            <S.InfoDetailsButtonTelegram href='https://drive.google.com/u/0/uc?id=1kgSl9iLWyw96Z6przmVK7kLwSHSVPbqw&export=download'>
+            <S.InfoDetailsButtonTelegram href='https://drive.google.com/u/0/uc?id=1HPM4simYfbyQreVexyi8AY28HPz2D9uN&export=download'>
               <Download
                 size='20'
                 weight='regular'

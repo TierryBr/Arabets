@@ -30,7 +30,7 @@ function Home() {
         </S.SocialItemImg>
         <S.SocialItemImg
           color='33801B'
-          href='https://arabets.com.br/mini-curso-gratis/'
+          href='https://t.me/suporte_arabets'
           target='_blank'
         >
           <UserCirclePlus size='50' weight='fill' />
