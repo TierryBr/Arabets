@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import {Link} from 'react-router-dom';
 
 const media = {
-  mobile898: '@media(max-width: 898px)',
+  mobile700: '@media(max-width: 700px)',
+  mobile630: '@media(max-height: 630px)',
 }
 
 export const Container = styled.div`
@@ -18,6 +18,15 @@ export const Container = styled.div`
   padding: 2rem;
   border-radius: 10px;
   background-color: #383838;
+
+  ${media.mobile700} {
+    flex-direction: column;
+    width: 80%;
+    height: 85vh;
+  }
+  ${media.mobile630} {
+    height: 90vh;
+  }
 `;
 
 export const InfoDetailsButton = styled.a`

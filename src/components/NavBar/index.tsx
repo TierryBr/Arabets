@@ -21,7 +21,7 @@ function Navbar() {
             <S.InfosNavBar to='/about'>
               <S.TextInfosNavBar>Sobre</S.TextInfosNavBar>
             </S.InfosNavBar>
-            <S.InfosNavBar to='/'>
+            <S.InfosNavBar to='/query'>
               <S.TextInfosNavBar>Dúvidas</S.TextInfosNavBar>
             </S.InfosNavBar>
           </S.MenuItem>
