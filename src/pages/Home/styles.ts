@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import {Link} from 'react-router-dom';
 
+import Logo from '../../img/banner.png';
+
 const media = {
   mobile898: '@media(max-width: 898px)',
   mobile820: '@media(max-width: 820px)',
@@ -22,7 +24,10 @@ export const Container = styled.div`
   position: relative;
   align-items: center;
   justify-content: center;
-  background-color: #383838;
+  background-image: url(${Logo});
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
   ${media.mobile898} {
     flex-direction: column;
@@ -39,12 +44,12 @@ export const Container = styled.div`
 
 export const ContainerTitle = styled.h1`
   display: flex;
-  flex: 1;
+  flex: 0.9;
   font-size: 40px;
   font-weight: 700;
   line-height: 4rem;
   padding: 0 17rem;
-  margin-bottom: 50px;
+  margin-bottom: 120px;
   text-align: center;
   justify-content: center;
   align-items: center;
