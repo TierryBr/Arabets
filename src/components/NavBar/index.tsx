@@ -10,22 +10,13 @@ function Navbar() {
       <S.Wrapper>
         <S.Left>
           <Link to='/'>
-            <img src={Logo} width='100' height='90' alt='Logo Arabets' />
+            <S.LeftImg src={Logo} alt='Logo Arabets' />
           </Link>
         </S.Left>
         <S.Center>
           <S.Title>Arabet's Corner</S.Title>
         </S.Center>
-        <S.Right>
-          <S.MenuItem>
-            <S.InfosNavBar to='/about'>
-              <S.TextInfosNavBar>Sobre</S.TextInfosNavBar>
-            </S.InfosNavBar>
-            <S.InfosNavBar to='/query'>
-              <S.TextInfosNavBar>Dúvidas</S.TextInfosNavBar>
-            </S.InfosNavBar>
-          </S.MenuItem>
-        </S.Right>
+        <S.Right />
       </S.Wrapper>
     </S.Container>
   );

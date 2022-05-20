@@ -49,7 +49,7 @@ export const ContainerTitle = styled.h1`
   font-weight: 700;
   line-height: 4rem;
   padding: 0 17rem;
-  margin-bottom: 120px;
+  margin-bottom: 50px;
   text-align: center;
   justify-content: center;
   align-items: center;

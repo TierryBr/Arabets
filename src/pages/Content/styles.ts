@@ -40,6 +40,30 @@ export const ContainerIframe = styled.div`
   }
 `;
 
+export const ContainerIframeDiv = styled.div`
+  width: 100%;
+  height: 300px;
+  background-image: url("https://img.youtube.com/vi/dwbf9JXJfIM/0.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 8px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+`;
+
+export const ContainerIframeButton = styled.button`
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: rgba(0, 0, 0, 30%);
+  cursor: pointer;
+`;
+
 export const ContainerIframeTitle = styled.h1`
   max-width: 75%;
   font-size: 24px;

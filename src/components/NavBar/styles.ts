@@ -1,11 +1,10 @@
 import styled from "styled-components";
 import { Link } from 'react-router-dom';
 
-import { mobile } from "../../responsive";
-
 const media = {
   mobile898: '@media(max-width: 898px)',
   mobile575: '@media(max-width: 575px)',
+  mobile400: '@media(max-width: 400px)',
 }
 
 export const Container = styled.div`
@@ -31,6 +30,15 @@ export const Wrapper = styled.div`
 export const Left = styled.div`
   flex: 1;
   display: flex;
+`;
+
+export const LeftImg = styled.img`
+  width: 100px;
+  height: 90px;
+  ${media.mobile400} {
+    width: 80px;
+    height: 70px;
+  }
 `;
 
 export const Language = styled.span`

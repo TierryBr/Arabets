@@ -30,7 +30,10 @@ function Footer() {
             <S.ListItemLink to='/about'>Sobre nós</S.ListItemLink>
           </S.ListItem>
           <S.ListItem>
-            <S.ListItemLink to='/'>Dúvidas</S.ListItemLink>
+            <S.ListItemLink to='/query'>Dúvidas</S.ListItemLink>
+          </S.ListItem>
+          <S.ListItem>
+            <S.ListItemLink to='/content'>Conteúdo</S.ListItemLink>
           </S.ListItem>
         </S.List>
       </S.Center>
