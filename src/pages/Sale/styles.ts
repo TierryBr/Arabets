@@ -69,7 +69,7 @@ export const ContainerGroupPriceView = styled.h2`
 `;
 
 
-export const SaleButton = styled(Link)`
+export const SaleButton = styled.a`
   width: 14rem;
   height: 45px;
   display: flex;
@@ -125,7 +125,7 @@ export const TextPresentation = styled.span`
   text-align: center;
 `;
 
-export const SaleButtonFinal = styled(Link)`
+export const SaleButtonFinal = styled.a`
   width: 16rem;
   height: 50px;
   display: flex;
@@ -151,4 +151,20 @@ export const SaleButtonFinal = styled(Link)`
     color: #FFF;
     border-color: #fff;
   }
+`;
+
+export const CentralizingContent = styled.div`
+  align-items: center;
+  justify-content: center;
+  width: 37vh;
+  height: 40rem;
+  margin-bottom: 5rem;
+`;
+
+export const CentralizingContentSecondary = styled.div`
+  align-items: center;
+  justify-content: center;
+  width: 37vh;
+  height: 40rem;
+  margin-bottom: -5rem;
 `;

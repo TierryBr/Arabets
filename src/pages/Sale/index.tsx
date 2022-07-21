@@ -55,7 +55,9 @@ function Sale() {
             OU 147,00 À VISTA
           </S.ContainerGroupPriceView>
         </S.ContainerGroupPrice>
-        <S.SaleButton to='/content'>EU QUERO O DESCONTO</S.SaleButton>
+        <S.SaleButton href='https://pay.hotmart.com/P73071153P' target='_blank'>
+          EU QUERO O DESCONTO
+        </S.SaleButton>
 
         <S.PriceWarning>
           Menos de 50 centavos por dia + 7 dias de garantia!
@@ -84,22 +86,16 @@ function Sale() {
             facilitar sua jornada lucrativa.
           </span>
         </S.ContentItems>
-        <S.SaleButton to='/content'>EU QUERO O DESCONTO</S.SaleButton>
+        <S.SaleButton href='https://pay.hotmart.com/P73071153P' target='_blank'>
+          EU QUERO O DESCONTO
+        </S.SaleButton>
 
         <S.ContentItems>
           <S.SubTitle>O que estão falando do Arabet's Corner ?</S.SubTitle>
         </S.ContentItems>
-        <div
-          style={{
-            alignItems: 'center',
-            justifyContent: 'center',
-            width: '37vh',
-            height: '40rem',
-            marginBottom: '5rem',
-          }}
-        >
+        <S.CentralizingContent>
           <CarouselList />
-        </div>
+        </S.CentralizingContent>
 
         <S.ContainerGroup>GRUPO VIP</S.ContainerGroup>
         <S.ContainerGroupPrice>
@@ -130,7 +126,9 @@ function Sale() {
             OU 147,00 À VISTA
           </S.ContainerGroupPriceView>
         </S.ContainerGroupPrice>
-        <S.SaleButton to='/content'>EU QUERO O DESCONTO</S.SaleButton>
+        <S.SaleButton href='https://pay.hotmart.com/P73071153P' target='_blank'>
+          EU QUERO O DESCONTO
+        </S.SaleButton>
         <S.PriceWarning>
           Menos de 50 centavos por dia + 7 dias de garantia!
         </S.PriceWarning>
@@ -138,17 +136,9 @@ function Sale() {
         <S.ContentItems>
           <S.SubTitle>Quem somos ?</S.SubTitle>
         </S.ContentItems>
-        <div
-          style={{
-            alignItems: 'center',
-            justifyContent: 'center',
-            width: '37vh',
-            height: '30rem',
-            marginBottom: '5rem',
-          }}
-        >
+        <S.CentralizingContentSecondary>
           <CarouselPhotos />
-        </div>
+        </S.CentralizingContentSecondary>
         <S.TextPresentation>
           Somos dois amigos, Carlos Antônio e Lucas Oliveira. <br /> <br />
           Somos especialistas e trader esportivo, onde ja ajudamos mais de 3 mil
@@ -158,9 +148,30 @@ function Sale() {
           financeira em sua vida! <br /> <br />
           Posso te ajudar ?
         </S.TextPresentation>
-        <S.SaleButtonFinal to='/content'>
+        <S.SaleButtonFinal
+          href='https://pay.hotmart.com/P73071153P'
+          target='_blank'
+        >
           SIM, QUERO DAR O PRIMEIRO PASSO
         </S.SaleButtonFinal>
+
+        <span
+          style={{
+            margin: '0 3rem',
+            marginBottom: '20px',
+            textAlign: 'center',
+            fontSize: '12px',
+          }}
+        >
+          “Esse produto é comercializado com apoio da Hotmart. A plataforma não
+          faz controle editorial prévio dos produtos comercializados, nem avalia
+          a tecnicidade e experiência daqueles que os produzem. A existência de
+          um produto e sua aquisição, por meio da plataforma, não podem ser
+          consideradas como garantia de qualidade de conteúdo e resultado, em
+          qualquer hipótese. Ao adquiri-lo, o comprador declara estar ciente
+          dessas informações. Os termos e políticas da Hotmart podem ser
+          acessados aqui, antes mesmo da conclusão da compra"
+        </span>
       </S.Container>
       <Footer />
     </>
