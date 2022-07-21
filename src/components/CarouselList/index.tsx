@@ -2,7 +2,7 @@ import React from 'react';
 import Carousel from 'react-material-ui-carousel';
 import { Paper } from '@mui/material';
 
-function CarouselList(props) {
+function CarouselList() {
   const items = [
     {
       url: 'https://i.imgur.com/gjLTP1U.jpg',
@@ -53,7 +53,7 @@ function CarouselList(props) {
 
   return (
     <Carousel>
-      {items.map((item, i) => (
+      {items.map((item) => (
         <Paper>
           <div
             style={{
