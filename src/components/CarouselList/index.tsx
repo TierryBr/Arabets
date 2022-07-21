@@ -2,52 +2,68 @@ import React from 'react';
 import Carousel from 'react-material-ui-carousel';
 import { Paper } from '@mui/material';
 
+import print1 from '../../img/prints/1.jpg';
+import print2 from '../../img/prints/2.jpg';
+import print3 from '../../img/prints/3.jpg';
+import print4 from '../../img/prints/4.jpg';
+import print5 from '../../img/prints/5.jpg';
+import print6 from '../../img/prints/6.jpg';
+import print7 from '../../img/prints/7.jpg';
+import print8 from '../../img/prints/8.jpg';
+import print9 from '../../img/prints/9.jpg';
+import print10 from '../../img/prints/10.jpg';
+import print11 from '../../img/prints/11.jpg';
+import print12 from '../../img/prints/12.jpg';
+import print13 from '../../img/prints/13.jpg';
+import print14 from '../../img/prints/14.jpg';
+import print15 from '../../img/prints/15.jpg';
+
 function CarouselList() {
   const items = [
     {
-      url: 'https://i.imgur.com/gjLTP1U.jpg',
+      url: print1,
     },
     {
-      url: 'https://i.imgur.com/G6yETIf.jpg',
+      url: print2,
     },
     {
-      url: 'https://i.imgur.com/H1oHoba.jpg',
+      url: print3,
     },
     {
-      url: 'https://i.imgur.com/9dchBgP.jpg',
+      url: print4,
     },
     {
-      url: 'https://i.imgur.com/dAOHxq2.jpg',
+      url: print5,
     },
     {
-      url: 'https://i.imgur.com/HSWtHru.jpg',
+      url: print6,
     },
     {
-      url: 'https://i.imgur.com/lBTi7IV.jpg',
+      url: print7,
     },
     {
-      url: 'https://i.imgur.com/hTlMFpT.jpg',
+      url: print8,
     },
     {
-      url: 'https://i.imgur.com/roNfjEO.jpg',
+      url: print9,
     },
     {
-      url: 'https://i.imgur.com/slJASh6.jpg',
+      url: print10,
     },
     {
-      url: 'https://i.imgur.com/kpV0jKE.jpg',
+      url: print11,
     },
     {
-      url: 'https://i.imgur.com/cubvuYQ.jpg',
+      url: print12,
     },
     {
-      url: 'https://i.imgur.com/CtSdTJh.jpg',
+      url: print13,
     },
     {
-      url: 'https://i.imgur.com/R0SXfHz.jpg',
+      url: print14,
     },
     {
-      url: 'https://i.imgur.com/8dREwDY.jpg',
+      url: print15,
     },
   ];
 

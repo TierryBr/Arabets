@@ -2,19 +2,24 @@ import React from 'react';
 import Carousel from 'react-material-ui-carousel';
 import { Paper } from '@mui/material';
 
+import photo1 from '../../img/photos/photo1.jpg';
+import photo2 from '../../img/photos/photo2.jpg';
+import photo3 from '../../img/photos/photo3.jpg';
+import photo4 from '../../img/photos/photo4.jpg';
+
 function CarouselPhotos() {
   const items = [
     {
-      url: 'https://i.imgur.com/JM1ZWbW.jpg',
+      url: photo1,
     },
     {
-      url: 'https://i.imgur.com/G6agZYu.jpg',
+      url: photo3,
     },
     {
-      url: 'https://i.imgur.com/KdI9mbS.jpg',
+      url: photo2,
     },
     {
-      url: 'https://i.imgur.com/Alm12HU.jpg',
+      url: photo4,
     },
   ];
 

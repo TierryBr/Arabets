@@ -1,11 +1,4 @@
-import {
-  TelegramLogo,
-  UserCirclePlus,
-  YoutubeLogo,
-  InstagramLogo,
-  MonitorPlay,
-  ArrowFatLinesDown,
-} from 'phosphor-react';
+import { ArrowFatLinesDown } from 'phosphor-react';
 
 import NavBar from '../../components/NavBar';
 import CarouselList from '../../components/CarouselList';
