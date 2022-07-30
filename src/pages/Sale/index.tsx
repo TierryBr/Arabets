@@ -48,14 +48,17 @@ function Sale() {
             }}
           >
             <S.ContainerGroupPriceGreen>
-              POR 12X R$ 12,25
+              POR R$ 127,00
             </S.ContainerGroupPriceGreen>
           </div>
           <S.ContainerGroupPriceView>
-            OU 147,00 À VISTA
+            OU 12x NO CARTÃO
           </S.ContainerGroupPriceView>
         </S.ContainerGroupPrice>
-        <S.SaleButton href='https://pay.hotmart.com/P73071153P' target='_blank'>
+        <S.SaleButton
+          href='https://pay.hotmart.com/P73071153P?off=f3uykh5d&checkoutMode=10'
+          target='_blank'
+        >
           EU QUERO O DESCONTO
         </S.SaleButton>
 
@@ -86,7 +89,10 @@ function Sale() {
             facilitar sua jornada lucrativa.
           </span>
         </S.ContentItems>
-        <S.SaleButton href='https://pay.hotmart.com/P73071153P' target='_blank'>
+        <S.SaleButton
+          href='https://pay.hotmart.com/P73071153P?off=f3uykh5d&checkoutMode=10'
+          target='_blank'
+        >
           EU QUERO O DESCONTO
         </S.SaleButton>
 
@@ -119,14 +125,17 @@ function Sale() {
             }}
           >
             <S.ContainerGroupPriceGreen>
-              POR 12X R$ 12,25
+              POR R$ 127,00
             </S.ContainerGroupPriceGreen>
           </div>
           <S.ContainerGroupPriceView>
-            OU 147,00 À VISTA
+            OU 12x NO CARTÃO
           </S.ContainerGroupPriceView>
         </S.ContainerGroupPrice>
-        <S.SaleButton href='https://pay.hotmart.com/P73071153P' target='_blank'>
+        <S.SaleButton
+          href='https://pay.hotmart.com/P73071153P?off=f3uykh5d&checkoutMode=10'
+          target='_blank'
+        >
           EU QUERO O DESCONTO
         </S.SaleButton>
         <S.PriceWarning>
@@ -149,7 +158,7 @@ function Sale() {
           Posso te ajudar ?
         </S.TextPresentation>
         <S.SaleButtonFinal
-          href='https://pay.hotmart.com/P73071153P'
+          href='https://pay.hotmart.com/P73071153P?off=f3uykh5d&checkoutMode=10'
           target='_blank'
         >
           SIM, QUERO DAR O PRIMEIRO PASSO
